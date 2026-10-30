@@ -203,3 +203,14 @@ Completion claims without exact artifact identity, test evidence, scope evidence
 ## Migration provenance
 
 The initial design was extracted from architecture work previously recorded in `yandexuanxuan/codex-proxy-suite` PR #25, merged as commit `70eba44917fcfd9000491dd6ebbd52b54abb0140`. This repository is now the intended authoritative home for Agent Control Plane work; the source repository should remain focused on model access only.
+
+
+## Portfolio responsibility boundary (2026-10-30)
+
+This public note defines technical responsibilities only. Any private portfolio registry or business operation remains outside this repository; there is no claim that other privately managed systems are accessible, commercialized, or operational.
+
+- **Owns:** software engineering coding-agent task orchestration, isolation, structured evidence and exact-head acceptance.
+- **Outputs:** isolated worker execution + technical evidence; project-specific development steps.
+- **Does not own:** not a business digital workforce, revenue/contract system, model API gateway, or production proof for external clients.
+- **Public interfaces and handoff:** [Customer-Service AI Agent](https://github.com/Xander-Xai/Customer-Service-AI-Agent) owns its own application runtime and evidence; [Global Edge](https://github.com/Xander-Xai/X-SuperPlay-Global-Edge) separately owns edge/network reference components.
+- Technical implementation, testing and release evidence stay in this repository. An upstream portfolio document cannot promote draft, local tests or CI into real production usage, payment or user traction.
